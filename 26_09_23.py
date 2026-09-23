@@ -15,4 +15,12 @@ def solution(n):
         if n%x==1:
             return x
     return m
-
+#Adding digits
+def solution(n):
+    w=str(n)
+    y=int(n)
+    p=0
+    for x in w:
+        p=p+int(x)
+    answer=p
+    return answer
