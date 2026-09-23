@@ -1,4 +1,4 @@
-[PCCE Past Exam Question] Question 9 / Folding banknotes
+#[PCCE Past Exam Question] Question 9 / Folding banknotes
 def solution(wallet, bill):
     w=0
     while min(wallet)<min(bill) or max(wallet)<max(bill):
@@ -13,7 +13,7 @@ def solution(wallet, bill):
 
 
 
-Hall of Fame (1)
+#Hall of Fame (1)
 def solution(k, score):
     w=[]
     answer= []
@@ -27,7 +27,7 @@ def solution(k, score):
 
 
 
-Making strange characters
+#Making strange characters
 def solution(s):
     answer=''
     s=s.split(' ')
@@ -42,7 +42,7 @@ def solution(s):
              
 
 
-The Three Musketeers
+#The Three Musketeers
 def solution(number):
     answer=0
     a=len(number)
